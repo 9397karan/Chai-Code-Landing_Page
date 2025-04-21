@@ -3,14 +3,15 @@ import { Navbar } from '../../components/Navbar'
 import './WelcomePage.css'
 import TweetLove from '../Tweet_Section/TweetLove'
 import Company from '../Company_section/Company'
+import Cohort from '../Cohorts_Section/Cohort'
 
 export const WelcomePage = () => {
   return (
     <div className="relative min-h-screen overflow-hidden bg-black text-white">
 
       <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute -top-1/4 -left-1/4 w-[150%] h-[150%] bg-gradient-to-r from-orange-900/20 via-transparent to-amber-900/20 animate-[spin_30s_linear_infinite]"></div>
-        <div className="absolute -bottom-1/4 -right-1/4 w-[150%] h-[150%] bg-gradient-to-r from-orange-800/15 via-transparent to-amber-800/15 animate-[spin_35s_linear_infinite_reverse]"></div>
+        <div className="absolute -top-1/4 -left-1/4 w-[150%] h-[150%] bg-gradient-to-r from-orange-900/15 via-transparent to-amber-900/15 animate-[spin_30s_linear_infinite]"></div>
+        <div className="absolute -bottom-1/4 -right-1/4 w-[150%] h-[150%] bg-gradient-to-r from-orange-800/9 via-transparent to-amber-800/9 animate-[spin_35s_linear_infinite_reverse]"></div>
         
         {/* Floating particles */}
         {[...Array(30)].map((_, i) => (
@@ -95,6 +96,7 @@ export const WelcomePage = () => {
       </div>
       <TweetLove/>
       <Company/>
+      <Cohort/>
     </div>
   )
 }

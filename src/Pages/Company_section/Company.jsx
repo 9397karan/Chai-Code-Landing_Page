@@ -31,7 +31,7 @@ const Company = () => {
     const scroll = () => {
       if (!isPaused) {
         scrollPosition += speed;
-        if (scrollPosition >= scroller.scrollWidth / 2) {
+        if (scrollPosition >= scroller.scrollWidth / 1) {
           scrollPosition = 0;
         }
         scroller.scrollLeft = scrollPosition;

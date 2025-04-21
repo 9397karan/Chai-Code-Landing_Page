@@ -1,0 +1,144 @@
+/* Company.css */
+.companies-scroll-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 2rem;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .headline {
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #f97316;
+    margin-bottom: 2rem;
+    line-height: 1.4;
+    background: linear-gradient(to right, #f97316, #f59e0b);
+   
+    background-clip: text;
+    
+  }
+  
+  .scroller {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    mask-image: linear-gradient(
+      to right, 
+      transparent, 
+      black 10%, 
+      black 90%, 
+      transparent
+    );
+  }
+  
+  .scroller-inner {
+    display: flex;
+    gap: 2rem;
+    width: max-content;
+    padding: 1rem 0;
+  }
+  
+  .company-card {
+    background: rgba(15, 23, 42, 0.7);
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    min-width: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(249, 115, 22, 0.2);
+    backdrop-filter: blur(4px);
+  }
+  
+  .company-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(249, 115, 22, 0.2);
+    border-color: rgba(249, 115, 22, 0.4);
+  }
+  
+  .logo-container {
+    width: 100px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+  }
+  
+  .company-logo {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+  
+    transition: all 0.3s ease;
+  }
+  
+  .company-card:hover .company-logo {
+    filter:brightness(1) contrast(1);
+  }
+  
+  .company-name {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #f8fafc;
+    text-align: center;
+  }
+  
+  .fade-left, .fade-right {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100px;
+    pointer-events: none;
+    z-index: 2;
+  }
+  
+  .fade-left {
+    left: 0;
+    background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  }
+  
+  .fade-right {
+    right: 0;
+    background: linear-gradient(to left, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .headline {
+      font-size: 1.5rem;
+    }
+    
+    .company-card {
+      min-width: 150px;
+      padding: 1rem;
+    }
+    
+    .logo-container {
+      width: 80px;
+      height: 50px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .headline {
+      font-size: 1.3rem;
+    }
+    
+    .scroller-inner {
+      gap: 1rem;
+    }
+    
+    .company-card {
+      min-width: 120px;
+    }
+    
+    .fade-left, .fade-right {
+      width: 50px;
+    }
+  }

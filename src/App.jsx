@@ -1,6 +1,6 @@
 
 import './App.css'
-import { WelcomePage } from './Pages/WelcomePage'
+import { WelcomePage } from './Pages/Welcome_Section/WelcomePage'
 
 function App() {
 

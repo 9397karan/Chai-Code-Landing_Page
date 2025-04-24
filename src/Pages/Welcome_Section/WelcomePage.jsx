@@ -5,6 +5,7 @@ import TweetLove from '../Tweet_Section/TweetLove'
 import Company from '../Company_section/Company'
 import Cohort from '../Cohorts_Section/Cohort'
 import UdemyCourse from '../Udemy_Section/UdemyCourse'
+import KeyBenefits from '../KeyBenefits_Section/KeyBenefits'
 
 export const WelcomePage = () => {
   return (
@@ -103,6 +104,10 @@ export const WelcomePage = () => {
         <div className="h-0.5 w-full bg-gradient-to-r from-orange-600 to-amber-600 opacity-30 rounded-full"></div>
       </div>
       <UdemyCourse/>
+      <div className="relative w-full gradientBar">
+        <div className="h-0.5 w-full bg-gradient-to-r from-orange-600 to-amber-600 opacity-30 rounded-full"></div>
+      </div>
+      <KeyBenefits/>
     </div>
   )
 }

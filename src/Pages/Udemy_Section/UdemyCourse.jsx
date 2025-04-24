@@ -28,7 +28,7 @@ const UdemyCourse = () => {
           <p className="discount-badge">87% off</p>
         </div>
         
-        <a href="https://www.udemy.com/course/web-dev-master/?couponCode=CHAIFRIDAY80" target="_blank" rel="noopener noreferrer" className="cta-button">Check Udemy Courses</a>
+        <a href="https://www.udemy.com/course/web-dev-master/?couponCode=CHAIFRIDAY80" target="_blank" rel="noopener noreferrer" className="cta-button z-10">Check Udemy Courses</a>
       </div>
       
       <div className="video-container">

@@ -1,0 +1,52 @@
+@keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-12px); }
+  }
+  
+  .animate-float {
+    animation: float 5s ease-in-out infinite;
+  }
+  
+  @keyframes glow {
+    0%, 100% { box-shadow: 0 0 12px rgba(249, 115, 22, 0.5); }
+    50% { box-shadow: 0 0 25px rgba(245, 158, 11, 0.8); }
+  }
+  
+  .animate-glow {
+    animation: glow 3s ease-in-out infinite;
+  }
+  
+  @keyframes glowStrong {
+    0%, 100% { box-shadow: 0 0 15px rgba(251, 191, 36, 0.6); }
+    50% { box-shadow: 0 0 30px rgba(251, 191, 36, 0.9); }
+  }
+  
+  .animate-glow-strong {
+    animation: glowStrong 2s ease-in-out infinite;
+  }
+  
+  @keyframes bounceSlow {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-8px); }
+  }
+  
+  .animate-bounce-slow {
+    animation: bounceSlow 4s ease-in-out infinite;
+  }
+  
+  .text-gradient-orange-amber {
+    background: linear-gradient(to right, #f97316, #f59e0b);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  
+  @media (hover: hover) {
+    .group:hover .group-hover\:scale-105 {
+      transform: scale(1.05);
+    }
+    .group:hover .group-hover\:rotate-3 {
+      transform: rotate(3deg);
+    }
+  }
+  

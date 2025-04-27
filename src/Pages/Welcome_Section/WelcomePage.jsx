@@ -6,31 +6,14 @@ import Company from '../Company_section/Company'
 import Cohort from '../Cohorts_Section/Cohort'
 import UdemyCourse from '../Udemy_Section/UdemyCourse'
 import KeyBenefits from '../KeyBenefits_Section/KeyBenefits'
+import TopicsCloud from '../Topic_Section/TopicsCloud'
+import FeatureSection from '../Feature_Section/FeatureSection'
+import DiscordSection from '../Discord_Section/DiscordSection'
 
 export const WelcomePage = () => {
   return (
     <div className="relative min-h-screen overflow-hidden bg-black text-white">
 
-      <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute -top-1/4 -left-1/4 w-[150%] h-[150%] bg-gradient-to-r from-orange-900/15 via-transparent to-amber-900/15 animate-[spin_30s_linear_infinite]"></div>
-        <div className="absolute -bottom-1/4 -right-1/4 w-[150%] h-[150%] bg-gradient-to-r from-orange-800/9 via-transparent to-amber-800/9 animate-[spin_35s_linear_infinite_reverse]"></div>
-        
-        {/* Floating particles */}
-        {[...Array(30)].map((_, i) => (
-          <div 
-            key={i}
-            className="absolute rounded-full bg-orange-200/10 animate-float"
-            style={{
-              width: `${Math.random() * 6 + 2}px`,
-              height: `${Math.random() * 6 + 2}px`,
-              top: `${Math.random() * 100}%`,
-              left: `${Math.random() * 100}%`,
-              animationDuration: `${Math.random() * 20 + 10}s`,
-              animationDelay: `${Math.random() * 5}s`
-            }}
-          />
-        ))}
-      </div>
 
       <div className="relative z-10 px-4 sm:px-8 md:px-16 lg:px-24 xl:px-32">
         <Navbar />
@@ -78,7 +61,7 @@ export const WelcomePage = () => {
           </div>
 
           <div className="flex justify-center mt-5 sm:mt-5 animate-[fadeIn_2s_ease-out]">
-            <button className="px-8 py-3 sm:px-10 sm:py-4 bg-gradient-to-r from-orange-600 to-amber-500 rounded-full font-semibold text-white hover:shadow-lg hover:shadow-orange-500/40 transition-all duration-300 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-orange-400 focus:ring-offset-2 focus:ring-offset-black">
+            <button className="px-8 py-3 sm:px-10 sm:py-4 bg-gradient-to-r from-orange-600 to-amber-500 rounded-full font-semibold text-white md:hover:shadow-lg md:hover:shadow-orange-500/40 transition-all duration-300 transform md:hover:scale-105 focus:outline-none focus:ring-2 focus:ring-orange-400 focus:ring-offset-2 focus:ring-offset-black">
               Join the Community
             </button>
           </div>
@@ -100,14 +83,31 @@ export const WelcomePage = () => {
       <TweetLove/>
       <Company/>
       <Cohort/>
-      <div className="relative w-full gradientBar">
-        <div className="h-0.5 w-full bg-gradient-to-r from-orange-600 to-amber-600 opacity-30 rounded-full"></div>
-      </div>
+      <div className="relative w-full flex justify-center">
+  <div className="h-0.5 w-11/12 bg-gradient-to-r from-transparent via-orange-600 to-transparent opacity-30 rounded-full"></div>
+</div>
+
       <UdemyCourse/>
-      <div className="relative w-full gradientBar">
-        <div className="h-0.5 w-full bg-gradient-to-r from-orange-600 to-amber-600 opacity-30 rounded-full"></div>
-      </div>
+      <div className="relative w-full flex justify-center">
+  <div className="h-0.5 w-11/12 bg-gradient-to-r from-transparent via-orange-600 to-transparent opacity-30 rounded-full"></div>
+</div>
+
       <KeyBenefits/>
+      <div className="relative w-full flex justify-center">
+  <div className="h-0.5 w-11/12 bg-gradient-to-r from-transparent via-orange-600 to-transparent opacity-30 rounded-full"></div>
+</div>
+
+<FeatureSection/>
+
+      <div className="relative w-full flex justify-center">
+  <div className="h-0.5 w-11/12 bg-gradient-to-r from-transparent via-orange-600 to-transparent opacity-30 rounded-full"></div>
+</div>
+      <TopicsCloud/>
+      <div className="relative w-full flex justify-center">
+  <div className="h-0.5 w-11/12 bg-gradient-to-r from-transparent via-orange-600 to-transparent opacity-30 rounded-full"></div>
+</div>
+<DiscordSection/>
+      
     </div>
   )
 }

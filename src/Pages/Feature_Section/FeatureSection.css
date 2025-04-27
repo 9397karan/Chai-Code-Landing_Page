@@ -1,0 +1,83 @@
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @keyframes slideLeft {
+    0% { transform: translateX(20px); opacity: 0; }
+    100% { transform: translateX(0); opacity: 1; }
+  }
+  
+  @keyframes slideRight {
+    0% { transform: translateX(-20px); opacity: 0; }
+    100% { transform: translateX(0); opacity: 1; }
+  }
+  
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+  }
+  
+  .feature-card {
+    background: rgba(15, 23, 42, 0.3);
+    border: 1px solid rgba(249, 115, 22, 0.3);
+    backdrop-filter: blur(4px);
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  @media (hover: hover) and (pointer: fine) {
+    .feature-card {
+      transition: all 0.3s ease;
+    }
+    .feature-card:hover {
+      border-color: rgba(249, 115, 22, 0.5);
+      box-shadow: 0 10px 25px rgba(249, 115, 22, 0.2);
+      transform: translateY(-5px);
+    }
+    
+    .cta-button:hover {
+      box-shadow: 0 8px 15px rgba(249, 115, 22, 0.4);
+      transform: scale(1.05);
+    }
+  }
+  
+  .text-gradient-orange-amber {
+    background: linear-gradient(to right, #f97316, #f59e0b);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  
+  .cta-button {
+    background: linear-gradient(to right, #f97316, #f59e0b);
+    border-radius: 9999px;
+    font-weight: 600;
+    color: white;
+    min-width: 250px;
+  }
+  
+  .animate-delay-100 { animation-delay: 0.1s; }
+  .animate-delay-200 { animation-delay: 0.2s; }
+  
+  .animate-fade-in { animation: fadeIn 1s ease-out forwards; }
+  .animate-slide-left { animation: slideLeft 1s ease-out forwards; }
+  .animate-slide-right { animation: slideRight 1s ease-out forwards; }
+  .animate-float { animation: float 3s ease-in-out infinite; }
+  
+  @media (max-width: 1024px) {
+    .feature-card {
+      min-height: 180px;
+      padding: 1.5rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .feature-card {
+      min-height: auto;
+      padding: 1.25rem;
+    }
+  }

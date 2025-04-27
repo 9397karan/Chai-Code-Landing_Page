@@ -118,12 +118,12 @@
     box-shadow: 0 8px 15px rgba(249, 115, 22, 0.3);
   }
   
-  .video-container {
+  .video-container1 {
     flex: 1;
     min-width: 0;
   }
   
-  .video-placeholder {
+  .video-placeholder1 {
     position: relative;
     padding-bottom: 56.25%;
     background-color: #000;
@@ -131,7 +131,7 @@
     overflow: hidden;
   }
   
-  .video-overlay {
+  .video-overlay1 {
     position: absolute;
     top: 0;
     left: 0;

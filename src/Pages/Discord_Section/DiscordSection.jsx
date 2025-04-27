@@ -3,7 +3,7 @@ import "./DiscordSection.css";
 
 const DiscordSection = () => {
   return (
-    <div className="min-h-screen  py-20 px-6 sm:px-8 lg:px-16">
+    <div className=" py-20 px-6 sm:px-8 lg:px-16">
       <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-center gap-16">
     
         <div className="flex-1 max-w-md lg:max-w-lg animate-float">
@@ -33,7 +33,7 @@ const DiscordSection = () => {
           </p>
 
        
-          <div className="p-6 bg-gradient-to-r from-orange-900/20 to-amber-900/10 border border-amber-500/30 rounded-2xl backdrop-blur-md inline-block animate-glow mb-10">
+          <div className="p-6 bg-gradient-to-r from-orange-900/20 to-amber-900/10 border border-amber-500/30 rounded-2xl backdrop-blur-md inline-block animate-glow ">
             <div className="flex items-center justify-center gap-5">
               <svg className="w-14 h-14 text-amber-400 animate-bounce-slow" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M20.3 4.1c-1.4-.6-3-.9-4.7-.9-1.7 0-3.3.3-4.7.9-1.4.6-2.6 1.5-3.6 2.6-1 1.1-1.8 2.4-2.3 3.8-.5 1.4-.7 2.9-.7 4.4 0 1.5.2 3 .7 4.4.5 1.4 1.3 2.7 2.3 3.8 1 1.1 2.2 2 3.6 2.6 1.4.6 3 .9 4.7.9 1.7 0 3.3-.3 4.7-.9 1.4-.6 2.6-1.5 3.6-2.6 1-1.1 1.8-2.4 2.3-3.8.5-1.4.7-2.9.7-4.4 0-1.5-.2-3-.7-4.4-.5-1.4-1.3-2.7-2.3-3.8-1-1.1-2.2-2-3.6-2.6zm-1.6 12.9c-.3.8-.7 1.5-1.3 2.1-.6.6-1.3 1-2.1 1.3-.8.3-1.7.5-2.6.5-.9 0-1.8-.2-2.6-.5-.8-.3-1.5-.7-2.1-1.3-.6-.6-1-1.3-1.3-2.1-.3-.8-.5-1.7-.5-2.6 0-.9.2-1.8.5-2.6.3-.8.7-1.5 1.3-2.1.6-.6 1.3-1 2.1-1.3.8-.3 1.7-.5 2.6-.5.9 0 1.8.2 2.6.5.8.3 1.5.7 2.1 1.3.6.6 1 1.3 1.3 2.1.3.8.5 1.7.5 2.6 0 .9-.2 1.8-.5 2.6z"/>

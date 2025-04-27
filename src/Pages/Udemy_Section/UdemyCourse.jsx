@@ -31,9 +31,9 @@ const UdemyCourse = () => {
         <a href="https://www.udemy.com/course/web-dev-master/?couponCode=CHAIFRIDAY80" target="_blank" rel="noopener noreferrer" className="cta-button z-10">Check Udemy Courses</a>
       </div>
       
-      <div className="video-container">
-        <div className="video-placeholder">
-          <div className="video-overlay">
+      <div className="video-container1">
+        <div className="video-placeholder1">
+          <div className="video-overlay1">
             <iframe
               width="100%"
               height="100%"

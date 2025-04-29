@@ -108,7 +108,7 @@ const Cohort = () => {
                 <span className="discount">Save {card.off}%</span>
               </div>
 
-              <a href={card.courseLink} className="button">
+              <a href={card.courseLink} target="_blank" rel="noopener noreferrer" className="button">
                 Learn More
               </a>
             </div>

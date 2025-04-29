@@ -6,11 +6,11 @@ const KeyBenefits = () => {
   return (
     <div className="key-benefits-container">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <h1 className="text-4xl font-bold text-center mb-12 bg-clip-text text-transparent bg-gradient-to-r from-orange-500 to-amber-500">
+        <h1 className="hero-title">
           Key Benefits of Cohorts
         </h1>
         
-        <p className="text-xl text-center mb-16 text-gray-300">
+        <p className="hero-subtitle">
           Cohorts are the best way to learn because you finish the course in a timely manner.
         </p>
 
@@ -53,6 +53,7 @@ const KeyBenefits = () => {
 
           {/* Benefit 4 */}
           <div className="benefit-card">
+          <div><img src="./leet-lab.png" className='w-16 mb-2' alt="" /></div>
             <h2 className="text-2xl font-semibold mb-4 text-orange-400">Leet Lab</h2>
             <p className="text-gray-300 mb-4">
               Our labs feature carefully crafted patterns that help you understand the foundation of programming languages.
@@ -64,6 +65,7 @@ const KeyBenefits = () => {
 
           {/* Benefit 5 */}
           <div className="benefit-card">
+          <div><img src="./collab.png" className='w-16 mb-2' alt="" /></div>
             <h2 className="text-2xl font-semibold mb-4 text-orange-400">Collaborative Learning</h2>
             <p className="text-gray-300 mb-4">
               There's nothing like discussing with fellow learners and solving bugs together.
@@ -75,6 +77,7 @@ const KeyBenefits = () => {
 
           {/* Benefit 6 */}
           <div className="benefit-card">
+          <div><img src="./revision.png" className='w-16 mb-2' alt="" /></div>
             <h2 className="text-2xl font-semibold mb-4 text-orange-400">Revision Classes</h2>
             <p className="text-gray-300 mb-4">
               We have dedicated revision sessions where learners can reinforce concepts and target weak areas.

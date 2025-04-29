@@ -19,7 +19,7 @@ export const WelcomePage = () => {
       <div className="relative z-10 px-4 sm:px-8 md:px-16 lg:px-24 xl:px-32">
         <Navbar />
 
-        <div className="overflow-hidden flex justify-center">
+        <div className="overflow-hidden flex justify-center mt-10">
           <h2 
             className="text-center mt-12 text-sm font-medium tracking-wider animate-[slideUp_1s_ease-out] border border-orange-500/30 rounded-full py-1 px-4 inline-block"
             style={{ color: "#FF7E0D" }}

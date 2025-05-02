@@ -74,7 +74,7 @@ export const Navbar = () => {
           <div className='space-y-6'>
             <div className='flex items-center justify-between'>
               <div className='flex items-center gap-3'>
-                <img src="/chai-white.png" alt="Chai Logo" className='w-10 h-10' />
+                <img src="/assets/chai-white.png" alt="Chai Logo" className='w-10 h-10' />
                 <span className='text-orange-400 text-xl font-bold'>ChaiCode</span>
               </div>
               <button onClick={() => setIsOpen(false)} className='text-gray-400 hover:text-white'>

@@ -1,4 +1,3 @@
-
 .tweet-love-container {
   max-width: 1400px;
   margin: 0 auto;
@@ -83,123 +82,6 @@
   opacity: 1;
 }
 
-.card-header {
-  display: flex;
-  align-items: center;
-  margin-bottom: 1.25rem;
-  position: relative;
-}
-
-.user-avatar {
-  width: 52px;
-  height: 52px;
-  border-radius: 50%;
-  background: linear-gradient(135deg, #f97316, #f59e0b);
-  padding: 2px;
-  margin-right: 14px;
-}
-
-.avatar {
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 2px solid rgba(15, 23, 42, 0.8);
-}
-
-.user-info {
-  display: flex;
-  flex-direction: column;
-}
-
-.username {
-  font-weight: 700;
-  color: #f8fafc;
-  font-size: 1.05rem;
-}
-
-.handle {
-  color: #94a3b8;
-  font-size: 0.9rem;
-  font-weight: 500;
-}
-
-.twitter-icon {
-  width: 22px;
-  height: 22px;
-  fill: #f97316;
-  position: absolute;
-  right: 0;
-  opacity: 0.8;
-}
-
-.card-content {
-  margin-bottom: 1.5rem;
-}
-
-.card-content p {
-  line-height: 1.6;
-  color: #e2e8f0;
-  font-size: 1.05rem;
-  margin-bottom: 1.25rem;
-}
-
-.course-info {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: rgba(30, 41, 59, 0.5);
-  padding: 0.75rem 1rem;
-  border-radius: 10px;
-  border: 1px solid rgba(255, 165, 0, 0.1);
-}
-
-.course-name {
-  font-weight: 600;
-  color: #f8fafc;
-  font-size: 0.95rem;
-}
-
-.rating-badge {
-  background: rgba(249, 115, 22, 0.15);
-  color: #f97316;
-  padding: 0.35rem 0.75rem;
-  border-radius: 20px;
-  font-weight: 700;
-  font-size: 0.9rem;
-}
-
-.card-footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-top: 1rem;
-  border-top: 1px solid rgba(255, 165, 0, 0.1);
-}
-
-.date {
-  color: #94a3b8;
-  font-size: 0.85rem;
-  font-weight: 500;
-}
-
-.engagement-stats {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-}
-
-.engagement-count {
-  color: #f8fafc;
-  font-weight: 600;
-  font-size: 0.9rem;
-}
-
-.engagement-label {
-  color: #94a3b8;
-  font-size: 0.85rem;
-}
-
 /* CTA Button */
 .cta-container {
   display: flex;
@@ -258,4 +140,3 @@
     font-size: 0.9rem;
   }
 }
-

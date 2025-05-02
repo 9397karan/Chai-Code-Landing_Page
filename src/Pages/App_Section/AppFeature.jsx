@@ -52,9 +52,7 @@ const AppFeature = () => {
                 </div>
               </div>
               
-              <div className="app-course error">
-                <h3>[ERROR]</h3>
-              </div>
+             
             </div>
           </div>
         </div>

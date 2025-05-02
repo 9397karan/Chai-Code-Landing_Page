@@ -46,9 +46,11 @@ export const Navbar = () => {
         </ul>
 
         <div className='hidden md:block'>
-          <button className='px-5 py-2 bg-orange-500 text-white font-semibold rounded-full shadow hover:bg-orange-400 transition duration-300'>
+          <a
+              href="https://courses.chaicode.com/learn/account/signin"
+              target="_blank" className='px-5 py-2 bg-orange-500 text-white font-semibold rounded-full shadow hover:bg-orange-400 transition duration-300'>
             Login
-          </button>
+          </a>
         </div>
 
         <div className='md:hidden'>

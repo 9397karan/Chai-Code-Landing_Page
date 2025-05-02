@@ -46,8 +46,3 @@
       padding: 1rem;
     }
   }
-  @media (hover: none) and (pointer: coarse) {
-    *:hover {
-      all: unset !important;
-    }
-  }

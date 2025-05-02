@@ -50,8 +50,4 @@
     }
   }
   
-  @media (hover: none) and (pointer: coarse) {
-    *:hover {
-      all: unset !important;
-    }
-  }
+  

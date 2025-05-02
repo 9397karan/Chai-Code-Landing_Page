@@ -194,8 +194,4 @@
       font-size: 1.25rem;
     }
   }
-  @media (hover: none) and (pointer: coarse) {
-    *:hover {
-      all: unset !important;
-    }
-  }
+  

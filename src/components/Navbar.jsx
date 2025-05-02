@@ -60,15 +60,13 @@ export const Navbar = () => {
 
       {/* Mobile Drawer */}
       <div
-        className={`fixed top-0 left-0 h-full w-full z-50 bg-black bg-opacity-60 backdrop-blur-sm transition-opacity duration-300 ease-in-out ${
-          isOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'
-        }`}
+        className={`fixed top-0 left-0 h-full w-full z-50 bg-black bg-opacity-60 backdrop-blur-sm transition-opacity duration-300 ease-in-out ${isOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'
+          }`}
         onClick={() => setIsOpen(false)}
       >
         <div
-          className={`w-[80%] max-w-xs h-full bg-neutral-900 border-l border-gray-700 shadow-xl p-6 flex flex-col justify-between fixed top-0 right-0 transition-transform duration-300 ease-in-out ${
-            isOpen ? 'translate-x-0' : 'translate-x-full'
-          }`}
+          className={`w-[80%] max-w-xs h-full bg-neutral-900 border-l border-gray-700 shadow-xl p-6 flex flex-col justify-between fixed top-0 right-0 transition-transform duration-300 ease-in-out ${isOpen ? 'translate-x-0' : 'translate-x-full'
+            }`}
           onClick={(e) => e.stopPropagation()}
         >
           <div className='space-y-6'>
@@ -96,11 +94,11 @@ export const Navbar = () => {
           </div>
 
           <div className='mt-auto'>
-<<<<<<< HEAD
-            <a className='px-5 py-2 bg-orange-500 text-white font-semibold rounded-full shadow hover:bg-orange-400 transition duration-300'>
-=======
-            <a href="https://courses.chaicode.com/learn/account/signin" target="_blank" className='w-full px-5 py-2 bg-orange-500 text-white font-semibold rounded-full shadow hover:bg-orange-400 transition duration-300'>
->>>>>>> 159a50bf0e7eaf3d9f772cb16d1c5fdb08b43611
+            <a
+              href="https://courses.chaicode.com/learn/account/signin"
+              target="_blank"
+              className='w-full px-5 py-2 bg-orange-500 text-white font-semibold rounded-full shadow hover:bg-orange-400 transition duration-300'
+            >
               Login
             </a>
           </div>

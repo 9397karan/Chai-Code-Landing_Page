@@ -96,7 +96,11 @@ export const Navbar = () => {
           </div>
 
           <div className='mt-auto'>
+<<<<<<< HEAD
             <a className='px-5 py-2 bg-orange-500 text-white font-semibold rounded-full shadow hover:bg-orange-400 transition duration-300'>
+=======
+            <a href="https://courses.chaicode.com/learn/account/signin" target="_blank" className='w-full px-5 py-2 bg-orange-500 text-white font-semibold rounded-full shadow hover:bg-orange-400 transition duration-300'>
+>>>>>>> 159a50bf0e7eaf3d9f772cb16d1c5fdb08b43611
               Login
             </a>
           </div>

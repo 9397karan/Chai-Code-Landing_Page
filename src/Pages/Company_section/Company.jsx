@@ -77,6 +77,7 @@ const Company = () => {
         
       
       </div>
+      <p classname="text-center text-sm text-red-500">“Logos used are for demonstration purposes only and are the property of their respective owners.”</p>
     </div>
   );
 };

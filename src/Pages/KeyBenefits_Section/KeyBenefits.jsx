@@ -77,7 +77,7 @@ const KeyBenefits = () => {
 
           {/* Benefit 6 */}
           <div className="benefit-card">
-          <div><img src="./assets/arevision.png" className='w-16 mb-2' alt="" /></div>
+          <div><img src="./assets/revision.png" className='w-16 mb-2' alt="" /></div>
             <h2 className="text-2xl font-semibold mb-4 text-orange-400">Revision Classes</h2>
             <p className="text-gray-300 mb-4">
               We have dedicated revision sessions where learners can reinforce concepts and target weak areas.

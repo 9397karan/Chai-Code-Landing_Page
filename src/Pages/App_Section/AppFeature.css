@@ -1,0 +1,334 @@
+.app-feature {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 3rem 2rem;
+    color: white;
+   margin-bottom: 10px;
+  }
+  
+  .feature-header {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  
+  .logo-pulse {
+    display: inline-block;
+    position: relative;
+    margin-bottom :1.5rem ;
+  }
+  
+  .logo-pulse h1 {
+    font-size: 3.5rem;
+    font-weight: 900;
+    background: linear-gradient(90deg, #f97316, #f59e0b);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    margin: 0;
+    letter-spacing: -0.05em;
+  }
+  
+  .logo-dots {
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 8px;
+  }
+  
+  .dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #f59e0b;
+    opacity: 0.7;
+  }
+  
+  .dot-1 { animation: dotPulse 2s infinite; }
+  .dot-2 { animation: dotPulse 2s infinite 0.2s; }
+  .dot-3 { animation: dotPulse 2s infinite 0.4s; }
+  
+  .feature-content {
+    display: flex;
+    align-items: center;
+    gap: 10rem;
+    margin-top: 2rem;
+  }
+  
+  .phone-mockup {
+    width: 300px;
+    height: 600px;
+    border: 12px solid #1a1a1a;
+    border-radius: 40px;
+    background: #1a1a1a;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+    flex-shrink: 0;
+  }
+  
+  .phone-screen {
+    width: 100%;
+    height: 100%;
+    background: #0f0f0f;
+    border-radius: 28px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .app-header {
+    padding: 1.5rem 1.5rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .app-header h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    background: linear-gradient(90deg, #f97316, #f59e0b);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    margin: 0;
+  }
+  
+  .app-dots {
+    color: #f59e0b;
+    font-size: 1.5rem;
+    line-height: 0;
+    margin-top: -5px;
+  }
+  
+  .app-courses {
+    padding: 0 1.5rem;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .app-course {
+    background: #1a1a1a;
+    border-radius: 12px;
+    padding: 1.2rem;
+    border: 1px solid #2a2a2a;
+  }
+  
+  .app-course.active {
+    border-color: rgba(249, 115, 22, 0.5);
+    background: linear-gradient(135deg, rgba(249, 115, 22, 0.1), transparent);
+  }
+  
+  .app-course h3 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin: 0 0 0.5rem 0;
+  }
+  
+  .app-course p {
+    color: #b3b3b3;
+    font-size: 0.9rem;
+    margin: 0 0 0.8rem 0;
+  }
+  
+  .course-meta {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+  
+  .rating {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #f59e0b;
+  }
+  
+  .duration {
+    font-size: 0.9rem;
+    color: #8a8a8a;
+  }
+  
+  .app-course.error {
+    background: rgba(239, 68, 68, 0.05);
+    border-color: rgba(239, 68, 68, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+  }
+  
+  .app-course.error h3 {
+    color: #ff6b6b;
+  }
+  
+  .cta-content {
+    max-width: 500px;
+  }
+  
+  .cta-content h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    background: linear-gradient(90deg, #f97316, #f59e0b);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  
+  .cta-content p {
+    color: #b3b3b3;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+  }
+  
+  .cta-features {
+    list-style: none;
+    padding: 0;
+    margin: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .cta-features li {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.1rem;
+  }
+  
+  .feature-icon {
+    width: 24px;
+    height: 24px;
+    background: linear-gradient(135deg, #f97316, #f59e0b);
+    border-radius: 6px;
+    position: relative;
+  }
+  
+  .feature-icon::after {
+    content: '✓';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 0.8rem;
+    font-weight: bold;
+  }
+  
+  .cta-buttons {
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 3rem;
+  }
+  
+  .cta-btn {
+    padding: 1rem 1.5rem;
+    border-radius: 12px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .cta-btn span:first-child {
+    font-size: 0.7rem;
+  }
+  
+  .cta-btn span:last-child {
+    font-size: 1.2rem;
+  }
+  
+  .cta-apple {
+    background: #000;
+    color: white;
+    border: 1px solid #333;
+  }
+  
+  .cta-apple:hover {
+    background: #111;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  }
+  
+  .cta-google {
+    background: linear-gradient(135deg, #f97316, #f59e0b);
+    color: black;
+  }
+  
+  .cta-google:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(249, 115, 22, 0.3);
+  }
+  
+  @keyframes dotPulse {
+    0%, 100% { transform: translateY(0); opacity: 0.7; }
+    50% { transform: translateY(-5px); opacity: 1; }
+  }
+  
+  @media (max-width: 1024px) {
+    .feature-content {
+      gap: 2rem;
+    }
+    
+    .phone-mockup {
+      width: 280px;
+      height: 560px;
+    }
+    
+    .cta-content h2 {
+      font-size: 2rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .feature-content {
+      flex-direction: column;
+    }
+    
+    .phone-mockup {
+      margin-bottom: 3rem;
+    }
+    
+    .cta-content {
+      text-align: center;
+      max-width: 100%;
+    }
+    
+    .cta-features {
+      align-items: center;
+    }
+    
+    .cta-buttons {
+      justify-content: center;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .app-feature {
+      padding: 2rem 1rem;
+    }
+    
+    .logo-pulse h1 {
+      font-size: 2.5rem;
+    }
+    
+    .phone-mockup {
+      width: 260px;
+      height: 520px;
+    }
+    
+    .cta-buttons {
+      flex-direction: column;
+      gap: 1rem;
+    }
+    
+    .cta-btn {
+      width: 100%;
+    }
+  }

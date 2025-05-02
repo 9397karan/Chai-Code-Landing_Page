@@ -11,6 +11,7 @@ import FeatureSection from '../Feature_Section/FeatureSection'
 import DiscordSection from '../Discord_Section/DiscordSection'
 import FreeApi from '../FreeApi_Section/FreeApi'
 import Footer from '../Footer_Section/Footer'
+import AppFeature from '../App_Section/AppFeature'
 
 export const WelcomePage = () => {
   return (
@@ -113,6 +114,11 @@ export const WelcomePage = () => {
   <div className="h-0.5 w-11/12 bg-gradient-to-r from-transparent via-orange-600 to-transparent opacity-30 rounded-full"></div>
 </div>
 <FreeApi/>
+
+<div className="relative w-full flex justify-center">
+  <div className="h-0.5 w-11/12 bg-gradient-to-r from-transparent via-orange-600 to-transparent opacity-30 rounded-full"></div>
+</div>
+<AppFeature/>
 <div className="relative w-full flex justify-center">
   <div className="h-0.5 w-11/12 bg-gradient-to-r from-transparent via-orange-600 to-transparent opacity-30 rounded-full"></div>
 </div>

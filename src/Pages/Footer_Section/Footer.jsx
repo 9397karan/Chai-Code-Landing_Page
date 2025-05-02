@@ -15,7 +15,7 @@ const Footer = () => {
         
         <div>
           <div className="flex items-center gap-2 text-2xl font-semibold">
-            <img src="/chai-white.png" alt="logo" className="w-6 h-6" />
+            <img src="/assets/chai-white.png" alt="logo" className="w-6 h-6" />
             <span className="text-white">
               Chai<span className="text-orange-500">Code</span>
             </span>

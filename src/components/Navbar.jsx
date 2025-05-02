@@ -28,7 +28,7 @@ export const Navbar = () => {
       <nav className='max-w-8xl mx-auto px-4 sm:px-6 lg:px-10 py-3 rounded-xl bg-neutral-900 bg-opacity-60 border border-gray-700 backdrop-blur-md shadow-lg flex justify-between items-center'>
 
         <div className='flex items-center gap-3'>
-          <img src="/chai-white.png" alt="Chai Logo" className='w-10 h-10 sm:w-12 sm:h-12' />
+          <img src="/assets/chai-white.png" alt="Chai Logo" className='w-10 h-10 sm:w-12 sm:h-12' />
         </div>
 
         <ul className='hidden md:flex gap-8 text-gray-200 font-medium text-lg'>

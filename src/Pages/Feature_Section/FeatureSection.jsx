@@ -58,7 +58,7 @@ const FeatureSection = () => {
           <div className="flex-shrink-0 mx-auto lg:mx-8 mb-8 lg:mb-0 order-3 lg:order-none animate-float w-full max-w-md">
             <div className="relative group h-full flex flex-col justify-center">
               <img 
-                src="./hitesh-sir.jpg" 
+                src="./assets/hitesh-sir.jpg" 
                 alt="Hitesh Choudhary" 
                 className="w-48 h-48 sm:w-64 sm:h-64 md:w-72 md:h-72 lg:w-80 lg:h-80 rounded-full object-cover border-4 border-amber-500 shadow-lg mx-auto"
               />

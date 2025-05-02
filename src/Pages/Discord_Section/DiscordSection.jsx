@@ -10,7 +10,7 @@ const DiscordSection = () => {
           <a href="https://discord.gg/yourlink" target="_blank" rel="noopener noreferrer" className="block group relative p-4 rounded-3xl transition-all duration-500 hover:scale-105">
             <div className="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-amber-500/30 group-hover:border-amber-400/40 transition-all duration-500">
               <img 
-                src="/chai-white.png"
+                src="/assets/chai-white.png"
                 alt="Community" 
                 className="w-full h-auto rounded-2xl"
               />

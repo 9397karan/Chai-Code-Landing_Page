@@ -46,9 +46,9 @@ export const Navbar = () => {
         </ul>
 
         <div className='hidden md:block'>
-          <a href="https://courses.chaicode.com/learn/account/signin" target="_blank" className='px-5 py-2 bg-orange-500 text-white font-semibold rounded-full shadow hover:bg-orange-400 transition duration-300'>
+          <button className='px-5 py-2 bg-orange-500 text-white font-semibold rounded-full shadow hover:bg-orange-400 transition duration-300'>
             Login
-          </a>
+          </button>
         </div>
 
         <div className='md:hidden'>
@@ -96,7 +96,7 @@ export const Navbar = () => {
           </div>
 
           <div className='mt-auto'>
-            <a href="https://courses.chaicode.com/learn/account/signin" target="_blank" className='w-full py-2 bg-orange-500 text-white font-semibold rounded-full shadow hover:bg-orange-400 transition duration-300'>
+            <a className='px-5 py-2 bg-orange-500 text-white font-semibold rounded-full shadow hover:bg-orange-400 transition duration-300'>
               Login
             </a>
           </div>

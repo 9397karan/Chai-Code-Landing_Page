@@ -1,12 +1,34 @@
-# React + Vite
+# Chai Code ☕ – Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the **Chai Code** landing page — a modern, responsive web interface built using **React**, **Tailwind CSS**, and **core CSS animations**. This project serves as a stylish front page for the Chai Code brand.
 
-Currently, two official plugins are available:
+## 🚀 Technologies Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ⚛️ **React** – Component-based frontend architecture
+- 🎨 **Tailwind CSS** – Utility-first styling for rapid UI development
+- 🎞️ **Core CSS** – Custom animations and hover effects
 
-## Expanding the ESLint configuration
+## 🌐 Live Demo
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🔗 [Visit Live Site](https://chai-code-landing-page-pied.vercel.app/)
+
+## 📸 Screenshots
+
+| Desktop View | Mobile View |
+|--------------|-------------|
+| ![Desktop Screenshot](./images/desktop.png) | ![Mobile Screenshot](./images/mobile.png) |
+
+
+## 📁 Project Structure
+
+```bash
+├── public/
+    ├── assets/ # Images, logos
+├── src/
+│   ├── pages/   # All Pages    
+│   ├── components/    # Reusable components
+│   ├── App.jsx
+│   └── index.css
+├── tailwind.config.js
+├── postcss.config.js
+└── package.json

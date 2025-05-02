@@ -36,6 +36,7 @@ export const Navbar = () => {
             <li key={idx}>
               <a
                 href={item.link}
+                target='_blank'
                 className='cursor-pointer hover:text-orange-400 transition duration-300'
               >
                 {item.name}

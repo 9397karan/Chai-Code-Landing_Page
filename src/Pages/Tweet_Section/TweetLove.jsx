@@ -37,7 +37,7 @@ const TweetLove = () => {
 
   return (
     <div className="tweet-love-container">
-      {/* Hero Section */}
+   
       <div className="hero-section">
         <p className="hero-subtitle">Love that we get from our community
 
@@ -46,7 +46,7 @@ const TweetLove = () => {
         <div className="gradient-bar"></div>
       </div>
 
-      {/* Tweets Grid */}
+    
       <div className="cards-container">
         {reviews.map((review) => (
           <div key={review.id} className="twitter-card">
@@ -86,11 +86,10 @@ const TweetLove = () => {
         ))}
       </div>
 
-      {/* CTA Button */}
       <div className="cta-container">
-        <button className="cta-button">
+        <a href='https://courses.chaicode.com/learn/view-all?show=batch&type=17' target='_blank' className="cta-button">
           Join Our Community
-        </button>
+        </a>
       </div>
     </div>
   );

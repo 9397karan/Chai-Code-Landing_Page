@@ -67,13 +67,14 @@ const Footer = () => {
         <div>
           <h3 className="font-semibold text-lg mb-3">Products</h3>
           <ul className="space-y-2 text-sm">
-            {['Courses', 'Cohort', 'Coding Hero', 'FreeAPI', 'Masterji'].map((item) => (
+            {[{item:'Courses',link:'https://courses.chaicode.com/learn'}, {item:'Cohort',link:'https://courses.chaicode.com/learn/view-all?show=batch&type=17'}, {item:'Coding Hero',link:'https://courses.chaicode.com/learn/batch/about?bundleId=226894'}, {item:'FreeAPI',link:'https://freeapi.app/'}, {item:'Masterji',link:'https://masterji.co/'}].map((item) => (
               <li key={item}>
                 <a 
-                  href="#" 
+                  href={item.link}
+                  target="_blank" 
                   className="text-gray-400 hover:text-orange-500 transition-all duration-500 block hover:pl-2"
                 >
-                  {item}
+                  {item.item}
                 </a>
               </li>
             ))}

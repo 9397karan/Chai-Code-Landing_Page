@@ -63,9 +63,9 @@ export const WelcomePage = () => {
           </div>
 
           <div className="flex justify-center mt-5 sm:mt-5 animate-[fadeIn_2s_ease-out]">
-            <button className="px-8 py-3 sm:px-10 sm:py-4 bg-gradient-to-r from-orange-600 to-amber-500 rounded-full font-semibold text-white md:hover:shadow-lg md:hover:shadow-orange-500/40 transition-all duration-300 transform md:hover:scale-105 focus:outline-none focus:ring-2 focus:ring-orange-400 focus:ring-offset-2 focus:ring-offset-black">
+            <a href='https://courses.chaicode.com/learn/view-all?show=batch&type=17' target='_blank' className="px-8 py-3 sm:px-10 sm:py-4 bg-gradient-to-r from-orange-600 to-amber-500 rounded-full font-semibold text-white md:hover:shadow-lg md:hover:shadow-orange-500/40 transition-all duration-300 transform md:hover:scale-105 focus:outline-none focus:ring-2 focus:ring-orange-400 focus:ring-offset-2 focus:ring-offset-black">
               Join the Community
-            </button>
+            </a>
           </div>
 
           <div className="w-full max-w-4xl aspect-video group animate-[fadeIn_1.8s_ease-out]">

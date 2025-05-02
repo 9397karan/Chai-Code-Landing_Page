@@ -8,7 +8,7 @@ const TweetLove = () => {
       username: "Hitesh Choudhary",
       handle: "hiteshdotcom",
       avatar: "./assets/hitesh-sir.jpg",
-      content: "Just crossed 1.5 million subscribers on YouTube! This wouldn't have been possible without your constant support and love. More exciting content coming your way!",
+      content: "Just crossed 1.5 million subscribers on YouTube! This wouldn't have been possible without your constant support and love. More exciting content coming your way!!",
       date: "May 15",
       course: "YouTube Journey",
       rating: "★★★★★"

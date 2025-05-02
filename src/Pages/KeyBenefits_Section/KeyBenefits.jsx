@@ -17,7 +17,7 @@ const KeyBenefits = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Benefit 1 */}
           <div className="benefit-card">
-            <div><img src="./professional.png" className='w-16 mb-2' alt="" /></div>
+            <div><img src="./assets/professional.png" className='w-16 mb-2' alt="" /></div>
             <h2 className="text-2xl font-semibold mb-4 text-orange-400">Taught by Professionals</h2>
             <p className="text-gray-300 mb-4">
               Our cohorts are being taught by top industry experts and educators.
@@ -29,7 +29,7 @@ const KeyBenefits = () => {
 
           {/* Benefit 2 */}
           <div className="benefit-card">
-          <div><img src="./review.png" className='w-16 mb-2' alt="" /></div>
+          <div><img src="./assets/review.png" className='w-16 mb-2' alt="" /></div>
             <h2 className="text-2xl font-semibold mb-4 text-orange-400">Best Code Reviews</h2>
             <p className="text-gray-300 mb-4">
               We provide detailed feedback on every code assignment, selected as approved per case.
@@ -41,7 +41,7 @@ const KeyBenefits = () => {
 
           {/* Benefit 3 */}
           <div className="benefit-card">
-          <div><img src="./bounty.png" className='w-16 mb-2' alt="" /></div>
+          <div><img src="./assets/bounty.png" className='w-16 mb-2' alt="" /></div>
             <h2 className="text-2xl font-semibold mb-4 text-orange-400">Bounties</h2>
             <p className="text-gray-300 mb-4">
               Learn courses, write more code to master methods, and better understand concepts at your level.
@@ -53,7 +53,7 @@ const KeyBenefits = () => {
 
           {/* Benefit 4 */}
           <div className="benefit-card">
-          <div><img src="./leet-lab.png" className='w-16 mb-2' alt="" /></div>
+          <div><img src="./assets/leet-lab.png" className='w-16 mb-2' alt="" /></div>
             <h2 className="text-2xl font-semibold mb-4 text-orange-400">Leet Lab</h2>
             <p className="text-gray-300 mb-4">
               Our labs feature carefully crafted patterns that help you understand the foundation of programming languages.
@@ -65,7 +65,7 @@ const KeyBenefits = () => {
 
           {/* Benefit 5 */}
           <div className="benefit-card">
-          <div><img src="./collab.png" className='w-16 mb-2' alt="" /></div>
+          <div><img src="./assets/collab.png" className='w-16 mb-2' alt="" /></div>
             <h2 className="text-2xl font-semibold mb-4 text-orange-400">Collaborative Learning</h2>
             <p className="text-gray-300 mb-4">
               There's nothing like discussing with fellow learners and solving bugs together.
@@ -77,7 +77,7 @@ const KeyBenefits = () => {
 
           {/* Benefit 6 */}
           <div className="benefit-card">
-          <div><img src="./revision.png" className='w-16 mb-2' alt="" /></div>
+          <div><img src="./assets/arevision.png" className='w-16 mb-2' alt="" /></div>
             <h2 className="text-2xl font-semibold mb-4 text-orange-400">Revision Classes</h2>
             <p className="text-gray-300 mb-4">
               We have dedicated revision sessions where learners can reinforce concepts and target weak areas.
